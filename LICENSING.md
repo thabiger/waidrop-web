@@ -1,7 +1,8 @@
 # Website licensing
 
-The website software (`index.html`, `style.css`, `app.js` and `config.js`) is
-licensed under Apache-2.0. See LICENSE and NOTICE.
+The website software (`index.html`, `privacy.html`, `terms.html`,
+`support.html`, `style.css`, `app.js` and `config.js`) is licensed under
+Apache-2.0. See LICENSE and NOTICE.
 
 The WAiDrop extension and the companion CLI/MCP package are also licensed
 under Apache-2.0 in their respective repositories. Third-party dependencies

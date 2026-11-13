@@ -1,0 +1,79 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Get help with WAiDrop, contact support, and find answers to common questions.">
+<meta name="theme-color" content="#103d2d">
+<title>Support — WAiDrop</title>
+<link rel="canonical" href="https://waidrop.tnkrd.com/support">
+<link rel="icon" href="/assets/logo.svg">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav wrap"><a href="/" class="brand"><img src="/assets/logo.svg" alt="" width="36" height="36">WAiDrop</a><nav aria-label="Main navigation"><a href="/#demo">Demo</a><a href="/#plans">Features</a><a href="/#setup">Get started</a><a href="https://github.com/thabiger/waidrop-cli#readme" target="_blank" rel="noopener">Docs ↗</a></nav></header>
+<main id="main" class="wrap legal-page">
+<article class="legal-content">
+<h1>WAiDrop Support</h1>
+<p>Need help with WAiDrop? Start here, then email us if you are still stuck.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:waidrop@tnkrd.com">waidrop@tnkrd.com</a>. Support is provided on a best-effort basis. We do not provide an SLA or guarantee response times. Complaints are handled within the time required by law (typically 14 days for consumer complaints).</p>
+<p>If you believe you found a security issue, email us with <strong>security</strong> in the subject line. Please do not include your encryption key or Dropbox token.</p>
+
+<h2>Before you email</h2>
+<ul>
+<li>Check the <a href="https://github.com/thabiger/waidrop-cli#readme" target="_blank" rel="noopener">CLI documentation</a> and <a href="https://github.com/thabiger/waidrop-cli/blob/main/docs/mcp.md" target="_blank" rel="noopener">MCP setup guide</a> if your question is about reading the archive or connecting an AI.</li>
+<li>Make sure the WAiDrop extension is enabled and WhatsApp Web is open in the same Chrome profile.</li>
+<li>If Dropbox uploads are failing, reconnect Dropbox in the extension settings and retry.</li>
+<li>Keep your encryption key somewhere safe. A lost key cannot be recovered.</li>
+</ul>
+
+<h2>What to include</h2>
+<ul>
+<li>The WAiDrop version from <code>chrome://extensions</code> and your Chrome version.</li>
+<li>What you expected to happen and what happened instead.</li>
+<li>The steps needed to reproduce the issue.</li>
+<li>The exact error text, plus a screenshot or console log if useful. Redact anything private before sending.</li>
+</ul>
+
+<h2>Please do not send</h2>
+<ul>
+<li>Your encryption key.</li>
+<li>Your Dropbox access or refresh token.</li>
+<li>Private chats, media or other people's personal data.</li>
+<li>Passwords or payment details.</li>
+</ul>
+
+<h2>Common questions</h2>
+<h3>My archive is not building</h3>
+<p>WAiDrop archives chat data that WhatsApp Web has already delivered to your browser. Keep WhatsApp Web open, confirm the extension is enabled, and open a few chats so their messages load.</p>
+
+<h3>Dropbox uploads are failing</h3>
+<p>Reconnect Dropbox from the extension settings, check that your Dropbox app folder has space, and retry. If the problem continues, email us with the error text.</p>
+
+<h3>I lost my encryption key</h3>
+<p>Lost keys cannot be recovered. The local archive and Dropbox backup are unreadable without the key. Start a new archive and save the new key securely.</p>
+
+<h3>Why are view-once messages not archived?</h3>
+<p>The published extension never captures view-once ("disappearing") media. Those messages are skipped and only their metadata is archived.</p>
+
+<h3>Why are older messages missing?</h3>
+<p>Messages dated before installation stay local until you enable full-history sync. WhatsApp may also limit how much history it delivers to WhatsApp Web.</p>
+
+<h3>WhatsApp changed and capture stopped</h3>
+<p>WAiDrop works within WhatsApp Web and may break when WhatsApp changes. Updates are provided on a best-effort basis. Check for a newer extension version before reporting the issue.</p>
+
+<h2>Donations</h2>
+<p>WAiDrop is free and open source. The optional <a href="https://buymeacoffee.com/tomaszhabiq" target="_blank" rel="noopener">Buy Me a Coffee</a> link supports development; donations do not unlock features or priority support.</p>
+
+<h2>Legal</h2>
+<p>Read the <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>.</p>
+<p class="legal-back"><a href="/">← Back to WAiDrop</a></p>
+</article>
+</main>
+<footer class="wrap"><div class="footer-top"><a href="/" class="brand"><img src="/assets/logo.svg" alt="" width="32" height="32">WAiDrop</a><div><a href="/LICENSE">Apache 2.0 license</a><a href="/privacy">Privacy policy</a><a href="/terms">Terms of service</a><a href="/support">Support</a></div></div><div class="footer-bottom"><p>© 2026. Your chats, with more possibilities.</p><p>WhatsApp, Dropbox, Chrome and AI provider names belong to their respective owners.</p></div></footer>
+</body>
+</html>
